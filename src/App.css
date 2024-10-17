@@ -1,0 +1,26 @@
+/* Styling for the floating button */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;  /* Distance from the bottom */
+    right: 20px;   /* Distance from the right */
+    width: 50px;   /* Diameter of the round button */
+    height: 50px;
+    border-radius: 50%; /* Makes the button round */
+    background-color: #007bff; /* Blue color */
+    color: white;    /* White text */
+    font-size: 24px; /* Font size for the plus symbol */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .floating-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1);     /* Slightly increase size on hover */
+  }
+  
